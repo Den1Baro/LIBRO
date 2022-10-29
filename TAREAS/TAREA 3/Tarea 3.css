@@ -1,0 +1,27 @@
+* {
+    padding: 0px 10px;
+}
+
+h1 {
+    border-bottom: 2px solid #00f;
+    padding-left: 10px;
+    margin: 30px 0px;
+}
+h2 {
+    border: 2px solid #AAA;
+    padding-left: 5px;
+    margin: 15px 0px;
+}
+
+li{
+    margin: 15px;
+}
+
+.listas{
+    border: 4px dotted #0F0;
+    
+}
+.informacion{
+    border-top: 4px dotted #f00;
+    border-bottom: 4px dotted #f00;
+}

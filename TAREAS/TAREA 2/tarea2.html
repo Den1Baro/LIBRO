@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link rel="stylesheet" href="./tarea2.css">
+
+<!-- 
+Ejercicio 1: Escribe en un documento web el siguiente texto teniendo en cuenta que se usan los encabezados h1 a h6.
+    Esto es un contenido <h1>
+    Esto es un contenido <h2>
+    Esto es un contenido <h3>
+    Esto es un contenido <h4>
+    Esto es un contenido <h5>
+    Esto es un contenido <h6>
+
+Ejercicio 2:Transcribe la imagen Lista anidada.png en lenguaje html.
+
+Ejercicio 3: Escribe un código html que muestre por pantalla 1 reproductor de audio y 1 de video.
+
+            El audio debe estar alojado en tu ordenador/hosting.
+
+            El video debes colocarlo en tu web por medio de la etiqueta <iframe>
+
+
+Ejercicio 4: Una empresa que vende pizzas tiene 3 ofertas. Las mismas son ( 1- 1
+    mozzarella y una bebida cola a 5 euros, 2- 2 mozzarellas a 6 euros y 3 - 4 mozarrellas a 10
+    euros). Confeccionar una página que disponga tres hipervínculos a cada una de esas ofertas.
+    Al ser presionadas abrir el cliente de correo y enviar la promoción correspondiente. En el
+    título indicar si se trata de la promoción 1, 2 o 3. En el cuerpo del mensaje pedir que ingrese
+    la dirección y teléfono de la persona que hace el pedido.
+
+AYUDA: Para que en el correo nos aparezca aparte de la dirección de correo de destino, el
+    asunto y texto en el contenido, se usaría lo siguiente:
+    <a href="mailto:pizzas@gmail.com?subject=Promoción 1&body=Ingrese aquí su dirección
+    y teléfono:">Solicitar.</a>
+
+    El aspecto final lo ven en la imagen Pizzas.png
+-->
+
+
+</head>
+<body>
+    <div>
+        <p>ejercicio 1</p>
+        <h>1</h>
+        <h>2</h>
+        <h>3</h>
+        <h>4</h>
+        <h>5</h>
+        <h>6</h>
+    </div>
+
+    <div>
+        <p>ejercicio 2</p>
+        <ul>
+            <li>Inicio</li>
+            <li>Sobre mí</li>
+            <li>Servicios 
+                <ul>
+                    <li>Fontanería</li>
+                    <li>Electricidad</li>
+                    <li>Pintura
+                        <ul>
+                            <li>Parkings</li>
+                            <li>Trabajos en altura</li>
+                            <li>Domicilios privados</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Testimonios</li>
+            <li>Contacto</li>
+        </ul>
+    </div>
+    <div>
+        <p>Ejercicio 3</p>
+    <audio src="../audio/Still Breathing.mp3" preload="auto"
+    controls></audio>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/XFgTHo1c8Ec" title="COMO HACER UNA BUENA INSTALACIÓN DE FONTANERÍA🚰🚽🛁. ESQUEMAS Y EXPLICACIÓN COMPLETA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div>
+    <p>Ejercicio 4</p>
+    <h1>Pizzeria Tomacos</h1>
+    <h2>Promociones</h2>
+    <ul>Promocion 1
+        <li>1 Muzzarella</li>
+        <li>+ 1 gaseosa cola</li>
+        <li>$5</li>
+    </ul>
+</div>
+
+<div>
+    <img src="../img/Cheese-Pizza.png" alt="imagen de pizza" width="100" height="100">
+    <img src="../img/Coca-Cola-No-Background.png" alt="imagen de cocacola" width="100" height="100">
+</div>
+
+    <a href="mailto:pizzas@gmail.com?subject=Promoción 1&body=Ingrese aquí su dirección
+    y teléfono:">Solicitar.</a> 
+
+    <div>
+    <h1>Promociones</h1>
+    <ul> Promocion 2
+        <li>2 Muzzarellas</li>
+        <li>$6</li>
+    </ul>
+
+    <img src="../img/Cheese-Pizza.png" alt="imagen de pizza" width="100" height="100">
+
+    <a href="mailto:pizzas@gmail.com?subject=Promoción 2&body=Ingrese aquí su dirección
+    y teléfono:">Solicitar.</a>
+</div>
+<div>
+    <h1>Promocion 3</h1>
+    <ul>
+        <li>3 Muzzarrella</li>
+        <li>$10</li>
+    </ul>
+
+    <img src="../img/Cheese-Pizza.png" alt="imagen de pizza" width="100" height="100">
+
+    <a href="mailto:pizzas@gmail.com?subject=Promoción 3&body=Ingrese aquí su dirección
+    y teléfono:">Solicitar.</a>
+
+
+</div>
+
+</body>
+</html>
